@@ -1,6 +1,18 @@
 # San Andreas Police Radio FiveM Script Documentation
 
-This will be updated every release as needed. Deprecated events will be indicated, and eventually removed in the future. All events are client side, unless otherwise specified.
+This will be updated every release as needed. Deprecated events will be indicated, and eventually removed in the future. All events are client side, unless otherwise specified. Jump to [Server Events](#server)
+
+## Client
+
+### v1.1.2
+
+#### Sent Events
+
+No changes from previous versions.
+
+#### Received Events
+
+-   `SAPR:PlayTalkingAnim`: Parameters: boolean. Allows you to toggle the talking animation flag of an individual player. Parameter is to indicate if the talking animation should be played.
 
 ### v1.1.0
 
@@ -17,14 +29,16 @@ This will be updated every release as needed. Deprecated events will be indicate
 -   `SAPR:911`: Parameters: bool. Allows you to trigger 911s, even if the setting is disabled for your community. Parameter is to indicate if the call is priority related.
 -   `SAPR:311`: No parameters. Allows you to trigger 311s, even if the setting is disabled for your community.
 
-### v1.0.4 (Deprecated)
+##### v1.0.4 (Deprecated)
 
-#### Sent Events
+###### Sent Events
 
 ~~- `RadioOn`: An emitted event when the radio state changes. Values: true, false.~~
 
-#### Received Events
+###### Received Events
 
-##### Client
+~~None at this time~~
 
-~~None at this time.~~
+## Server
+
+None at this time.
