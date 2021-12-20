@@ -11,6 +11,14 @@ All messages are sent and received on the local port 37001 in JSON format. All m
 }
 ```
 
+### v1.1.3
+
+No external support.
+
+### v1.1.2
+
+No external support.
+
 ### v1.1.0
 
 No external support.
